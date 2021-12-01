@@ -8,14 +8,14 @@
 public class Estudiante
 {
     private String nombre;
-    private int nota;
+    private int edad;
 
     /**
      * Constructor  
      */
-    public Estudiante(String queNombre, int queNota)    {
+    public Estudiante(String queNombre, int queEdad)    {
         nombre = queNombre;
-        nota = queNota;
+        edad = queEdad;
 
     }
 
@@ -30,8 +30,8 @@ public class Estudiante
     /**
      * Accesor para la nota
      */
-    public int getNota() {
-        return nota;
+    public int getEdad() {
+        return edad;
 
     }
 
@@ -40,7 +40,7 @@ public class Estudiante
      */
     public void printEstudiante() {
         System.out.println("Nombre: " + nombre +
-            "\nNota: " + nota);
+            "\nEdad: " + edad);
 
     }
 
